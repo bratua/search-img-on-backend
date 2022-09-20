@@ -1,0 +1,33 @@
+{
+  "name": "search-img-on-backend",
+  "version": "2.0.0",
+  "description": "",
+  "homepage": "https://goitacademy.github.io/search-img-on-backend",
+  "scripts": {
+    "start": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /search-img-on-backend/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bratua/search-img-on-backend.git"
+  },
+  "keywords": [],
+  "author": "LSP <serlipaua@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bratua/search-img-on-backend/issues"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "modern-normalize": "^1.1.0",
+    "notiflix": "^3.2.5",
+    "simplelightbox": "^2.10.3"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.6.0",
+    "parcel": "^2.6.0",
+    "parcel-reporter-clean-dist": "^1.0.4",
+    "posthtml-include": "^1.7.4"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead"
+}
