@@ -14,9 +14,16 @@
         autocomplete="off"
         placeholder="Search images..."
       />
-      <button type="submit">Search</button>
+      <button class="search-button" type="submit">
+        <svg class="search-icon">
+          <use href="./images/ico/search-sprite.svg#icon-search"></use>
+        </svg>
+      </button>
     </form>
-
+    <div class="gallery">
+      <!-- Карточки изображений -->
+    </div>
+    <button type="button" id="next-button">Next</button>
     <script type="module" src="./index.js"></script>
   </body>
 </html>

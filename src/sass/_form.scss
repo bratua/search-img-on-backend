@@ -1,0 +1,21 @@
+.search-form {
+	width: 100%;
+	position: fixed;
+	display: flex;
+	// gap: 10px;
+
+	padding: 10px 50%;
+	border: 2mm;
+	background-color: #3f3fff;
+}
+
+.search-button {
+	&:hover {
+		background-color: #a11acc;
+	}
+}
+
+.search-icon {
+	width: 15px;
+	height: 15px;
+}
